@@ -246,7 +246,7 @@
 
             if (!options.reconnectTime) options.reconnectTime = 5000;
 
-            const OJS = this;
+            window.OJS = this;
 
             this.clientOptions = options;
 
